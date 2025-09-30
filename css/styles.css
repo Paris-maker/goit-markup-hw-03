@@ -28,8 +28,10 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-h {
@@ -54,7 +56,6 @@ img {
     padding-bottom: 0;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -66,9 +67,6 @@ img {
     display: flex;
     gap: 40px;
     margin-right: 332px;
-}
-
-.nav-list-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -85,6 +83,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover {
