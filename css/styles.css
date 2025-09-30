@@ -1,3 +1,4 @@
+/* #region base */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -29,7 +30,9 @@ img {
     padding-right: 15px;
     margin: 0 auto;
 }
+/* #endregion */
 
+/* #region header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -43,6 +46,9 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .header-logo {
@@ -61,14 +67,12 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: 332px;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -85,6 +89,7 @@ img {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .nav-link:hover {
@@ -104,7 +109,10 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455
+    color:#434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .contacts-link:hover {
@@ -114,7 +122,9 @@ img {
 .contacts-link:focus {
     color: #404bbf
 }
+/* #endregion */
 
+/* #region hero */
 .hero-section {
     background-color: #2e2f42;
     padding-top: 188px;
@@ -158,7 +168,9 @@ img {
 .hero-button:focus {
     background-color: #404BBF
 }
+/* #endregion */
 
+/* #region values */
 .values-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -202,7 +214,9 @@ img {
 .values-item {
     flex-basis: calc((100% - 72px) / 4);
 }
+/* #endregion */
 
+/* #region team */
 .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -250,13 +264,16 @@ img {
 .team-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-item-section {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+/* #endregion */
 
+/* #region portfolio */
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -298,7 +315,7 @@ img {
 }
 
 .portfolio-item {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-item-section {
@@ -306,7 +323,9 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+/* #endregion */
 
+/* #region footer */
 .page-footer {
     background-color: #2e2f42;
     color:#f4f4fd;
@@ -337,5 +356,5 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-
+/* #endregion */
 
